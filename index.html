@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Welcome Message Section -->
+    <div id="welcome-section">
+        <h1 style="color: #fff; font-size: 3rem;">Welcome to Tic Tac Toe!</h1>
+        <button id="start-btn">Let's Start</button>
+    </div>
+
+    <!-- Game Section -->
+    <div id="game-section" class="hide">
+        <div class="msg-container hide"> <!-- Initially hidden -->
+            <p id="msg">Winner</p>
+            <button id="new-btn">New Game</button>
+        </div>
+        <main>
+            <h1 style="color: antiquewhite;">Tic Tac Toe</h1>
+            <div class="container">
+                <div class="game">
+                    <button class="box"></button>
+                    <button class="box"></button>
+                    <button class="box"></button>
+                    <button class="box"></button>
+                    <button class="box"></button>
+                    <button class="box"></button>
+                    <button class="box"></button>
+                    <button class="box"></button>
+                    <button class="box"></button>
+                </div>
+            </div>
+            <button id="reset-btn">Reset Game</button>
+        </main>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
+
